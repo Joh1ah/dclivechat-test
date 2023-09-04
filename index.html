@@ -6,9 +6,6 @@
 <body>
     <a id="bookmark">북마크 추가</a> 
     <script>
-      if (typeof browser === "undefined") {
-        var browser = chrome;
-      }
       document.getElementById("bookmark").onclick = () => {
         browser.bookmarks.create({
           title: "test",

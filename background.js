@@ -1,3 +1,5 @@
+console.log('hello');
+
 document.getElementById("bookmark").onclick = () => {
     browser.bookmarks.create({
         title: "test",

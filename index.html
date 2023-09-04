@@ -1,16 +1,8 @@
 <!DOCTYPE html>
 <head>
-  <link rel="manifest" href="https://joh1ah.github.io/dclivechat-test/manifest.json" />
+  <link rel="manifest" href="manifest.json" />
 </head>
 
 <body>
     <a id="bookmark">북마크 추가</a> 
-    <script>
-      document.getElementById("bookmark").onclick = () => {
-        browser.bookmarks.create({
-          title: "test",
-          url: "javascript:(()=>{fetch('https://joh1ah.github.io/dclivechat/min.js').then(res=>res.text().then(text=>eval(text))).catch(()=>alert('error'))})();"
-        });
-      };
-    </script>
 </body>

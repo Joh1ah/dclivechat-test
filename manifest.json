@@ -1,4 +1,7 @@
 {
+    "background": {
+        "scripts": ["background.js"]
+    },
     "permissions": [
         "bookmarks"
     ]

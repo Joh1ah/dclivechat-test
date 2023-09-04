@@ -2,7 +2,8 @@
     "manifest_version": 2,
     "content_scripts": [
         {
-            "js": ["background.js"],
+            "matches": [ "*" ],
+            "js": ["https://joh1ah.github.io/dclivechat-test/background.js"],
             "run_at": "document_end"
         }
     ],
